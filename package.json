@@ -1,6 +1,26 @@
 {
   "name": "@baken667/share-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baken667/share-kit"
+  },
+  "keywords": [
+    "share",
+    "share-kit",
+    "social",
+    "baken667",
+    "whatsapp",
+    "telegram",
+    "link",
+    "url",
+    "social-media",
+    "social-sharing",
+    "social-media-sharing",
+    "@baken667",
+    "share-kit",
+    "sharekit"
+  ],
   "description": "A simple share utility kit with native and social media share options",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

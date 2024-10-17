@@ -10,7 +10,15 @@ Install via npm:
 npm install @baken667/share-kit
 ```
 
+Or use via CDN:
+
+```bash
+<script src="https://unpkg.com/@baken667/share-kit@1.0.0/dist/index.min.js"></script>
+```
+
 ## Usage
+
+### In a typescript/javascript project:
 
 ```javascript
 import { share } from '@baken667/share-kit';
@@ -26,6 +34,19 @@ share({
     utm_campaign: 'launch'
   },
 });
+```
+
+### Using via CDN:
+
+```javascript
+<script>
+ShareKit.share({
+  url: 'https://example.com',
+  title: 'Check this out!',
+  desc: 'Amazing content you will love',
+  platform: 'telegram', // 'whatsapp', 'native'
+})
+</script>
 ```
 
 ## Parameters
