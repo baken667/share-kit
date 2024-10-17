@@ -1,0 +1,31 @@
+{
+  "name": "@baken667/share-kit",
+  "version": "1.0.0",
+  "description": "A simple share utility kit with native and social media share options",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Bauyrzhan Akhmetov",
+    "url": "https://github.com/baken667"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prebuild": "npm run test",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "husky": "^9.1.6",
+    "jsdom": "^25.0.1",
+    "terser": "^5.36.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vite-plugin-dts": "^4.2.4",
+    "vitest": "^2.1.3"
+  }
+}
