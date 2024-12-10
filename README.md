@@ -13,7 +13,7 @@ npm install @baken667/share-kit
 Or use via CDN:
 
 ```bash
-<script src="https://unpkg.com/@baken667/share-kit@1.0.0/dist/index.min.js"></script>
+<script src="https://unpkg.com/@baken667/share-kit@1.0.2/dist/index.min.js"></script>
 ```
 
 ## Usage
