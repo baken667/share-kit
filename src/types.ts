@@ -1,4 +1,4 @@
-type PlatformsType = "whatsapp" | "telegram" | "native";
+type PlatformsType = "whatsapp" | "telegram" | "email" | "native";
 
 type ShareOptions = {
   url?: string;
